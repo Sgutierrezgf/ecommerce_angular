@@ -1,0 +1,20 @@
+<div class="px-10">
+  <h1 class="text-lg font-bold">About</h1>
+  <p class="text-xs">
+    <span highlight>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi minima
+      sit</span
+    >
+    deserunt nam fugiat qui delectus totam quibusdam non facere, accusantium
+    quae cumque, facilis voluptates vel consectetur aliquam fugit ducimus.
+  </p>
+  <p class="text-xs">
+    Numero de clientes:
+    <app-counter
+      [duration]="duration()"
+      [message]="message()"
+      *ngIf="duration() > 0"
+    />
+  </p>
+  <div><app-wave-audio audioUrl="celtic.mp3" /></div>
+</div>
